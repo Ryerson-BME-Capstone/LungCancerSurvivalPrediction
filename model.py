@@ -12,6 +12,7 @@ from tensorflow.keras.models import load_model
 model = load_model('prediction') 
 
 image = Image.open('header.jpg')
+image = Image.open('happy.jpg')
 
 st.image(image, caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto") 
 
@@ -36,6 +37,7 @@ if st.button('Predict!'):
     y = [0 if val < 0.5 else 1 for val in y]
     if y[0] == 1:
         survival = 'You will survive.'
+        st.image(happy, caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto") 
     if y[0] == 0:
         survival = 'You will not survive.'
     st.write(survival) ##begin prediction and output results here
