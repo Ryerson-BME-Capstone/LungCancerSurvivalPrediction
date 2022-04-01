@@ -40,9 +40,14 @@ if st.button('Predict!'):
         survival = 'You will not survive.'
     st.write(survival) ##begin prediction and output results here
         
-st.header('FAQ', anchor=None)
-
-st.caption('WIP')
+st.text("")
+st.text("")
+st.text("")
+st.text("")
+st.text("")
+st.text("")
+st.text("")
+st.text("")
 
 st.subheader('Acknowledgements', anchor=None)
 
