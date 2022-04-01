@@ -44,17 +44,8 @@ st.header('FAQ', anchor=None)
 
 st.caption('WIP')
 
-st.header('Acknowledgements', anchor=None)
+st.subheader('Acknowledgements', anchor=None)
 
-st.markdown("""
-<style>
-.big-font {
-    font-size:3px !important;
-}
-</style>
-""", unsafe_allow_html=True)
-
-st.markdown('<p class="big-font"> Throughout the development of this project we have recieved a great deal of support and assistance.'</p>', unsafe_allow_html=True)
 
 st.caption('Throughout the development of this project we have recieved a great deal of support and assistance.')
 st.text("")
