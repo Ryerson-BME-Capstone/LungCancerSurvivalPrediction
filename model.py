@@ -46,4 +46,8 @@ st.caption('WIP')
 
 st.header('Acknowledgements', anchor=None)
 
-st.caption('Throughout the development of this project we have recieved a great deal of support and assistance. We would like to thank our Faculty Lab Coordinator, Professor Omar Grant, for his continued support and assistance in the development of this web app and model. We could not have done it without your expertise and guidance. Your feedback was insightful and greatly helped us. We would also like to thank our friends and family for their continued support, and counsel, allowing us to keep pushing forward even when things got difficult.')
+st.caption('Throughout the development of this project we have recieved a great deal of support and assistance.')
+st.text("")
+st.caption('We would like to thank our Faculty Lab Coordinator, Professor Omar Grant, for his continued support and assistance in the development of this web app and model. We could not have done it without your expertise and guidance. Your feedback was insightful and greatly helped us.') 
+st.text("")
+st.caption('We would also like to thank our friends and family for their continued support, and counsel, allowing us to keep pushing forward even when things got difficult.')
