@@ -11,7 +11,7 @@ from tensorflow.keras.models import load_model
 
 model = load_model('prediction') 
 
-image = Image.open('header.jpg')
+image = Image.open('image.jpg')
 happy = Image.open('happy.jpg')
 
 st.image(image, caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto") 
