@@ -11,10 +11,11 @@ from tensorflow.keras.models import load_model
 
 model = load_model('prediction') 
 
-image = Image.open('image.jpg')
+header = Image.open('image.jpg')
 happy = Image.open('happy.jpg')
+sad = Image.open('sad.jpg') 
 
-st.image(image, caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto") 
+st.image(header, caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto") 
 
 st.title("Lung Cancer Survival Prediction System")
 
@@ -40,6 +41,7 @@ if st.button('Predict!'):
         st.image(happy, caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto") 
     if y[0] == 0:
         survival = 'You will not survive.'
+        st.image(sad, caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto") 
     st.write(survival) ##begin prediction and output results here
         
 st.text("")
