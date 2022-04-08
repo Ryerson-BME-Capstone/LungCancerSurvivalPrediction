@@ -62,7 +62,7 @@ st.subheader('FAQ', anchor=None)
 
 st.text('What is the current accuracy of the model?')
 
-st.caption('The current accuracy of the model is 74%') 
+st.caption('The current accuracy of the model is 74%.') 
 
 st.text('What kind of genomic data is used in the prediction?')
 
