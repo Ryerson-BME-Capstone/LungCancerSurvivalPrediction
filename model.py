@@ -57,6 +57,30 @@ st.text("")
 st.text("")
 st.text("")
 st.text("")
+
+st.subheader('FAQ', anchor=None)
+
+st.text('What is the current accuracy of the model?')
+
+st.caption('The current accuracy of the model is 74%') 
+
+st.text('What kind of genomic data is used in the prediction?')
+
+st.caption('The model currently takes in RPPA (Reverse phase protein arrays) data and converts it in to prediction. Age and gender currently do not play a role in the prediction of the model.') 
+
+st.text('What is RPPA?')
+
+st.caption('RPPA or Reverse Phase Protein arrays involve taking samples of tissue and/or bodily fluid (e.g. urine, saliva, or serum), and blotting them into a single array. Each array has a specific antibody, which can detect the presence or expression of a certain protein or antigen. Ep-CAM is one antigen that is a known tumor marker and a marker for tumor-initiating cells.')
+
+st.text('Where was the data acquired to produce the model')
+
+st.caption('The model was produced using data from the TCGA and the Pancancer Survival Prediction community.') 
+
+
+
+
+
+
 st.text("")
 st.text("")
 st.text("")
