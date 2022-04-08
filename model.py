@@ -72,7 +72,7 @@ st.text('What is RPPA?')
 
 st.caption('RPPA or Reverse Phase Protein arrays involve taking samples of tissue and/or bodily fluid (e.g. urine, saliva, or serum), and blotting them into a single array. Each array has a specific antibody, which can detect the presence or expression of a certain protein or antigen. Ep-CAM is one antigen that is a known tumor marker and a marker for tumor-initiating cells.')
 
-st.text('Where was the data acquired to produce the model')
+st.text('Where was the data acquired to produce the model?')
 
 st.caption('The model was produced using data from the TCGA and the Pancancer Survival Prediction community.') 
 
