@@ -15,11 +15,16 @@ header = Image.open('image.jpg')
 happy = Image.open('happy.jpg')
 sad = Image.open('sad.jpg') 
 
-st.image(header, caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto") 
 
 st.title("Lung Cancer Survival Prediction System")
+st.text('')
 
-st.caption("The following is a survival prediction model that accepts genomic data and outputs a survivability in the form of a number between 0 and 1. A number greater than 0.5 indicates surviving, while a number below 0.5 indicates not surviving. Please upload your data in a .txt file format.", unsafe_allow_html=False) 
+st.image(header, caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto") 
+st.text('')
+st.text('')
+
+
+st.caption("The following is a survival prediction model that accepts genomic data and outputs a survivability in the form of a number between 0 and 1. A number greater than 0.5 indicates surviving, while a number below 0.5 indicates not surviving. The survival prediction is based on a 5 year time span. Please upload your data in a .txt file format.", unsafe_allow_html=False) 
 
 uploaded_file=st.file_uploader("Upload Genomic Data Here", type=['txt'], accept_multiple_files=False, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False)
 
